@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sasidhar Reddy & Akhila | Wedding Invitation</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Pinyon+Script&family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=Montserrat:wght@300;400;500&display=swap"
+        rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Curtain Tap Invitation -->
+    <div id="curtain">
+        <div class="cp cp-l" id="cpl"><div class="cp-edge-l"></div><div class="cp-stripe"></div></div>
+        <div class="cp cp-r" id="cpr"><div class="cp-edge-r"></div><div class="cp-stripe"></div></div>
+        <div id="c-cta">
+            <div class="c-card">
+                <!-- Corner flourishes -->
+                <div class="c-corner c-tl">✿</div>
+                <div class="c-corner c-tr">✿</div>
+                <div class="c-corner c-bl">✿</div>
+                <div class="c-corner c-br">✿</div>
+
+                <!-- Mandala ornament -->
+                <svg class="c-mandala-svg" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="50" cy="50" r="47" stroke="#C8A96A" stroke-width="0.6" fill="none" opacity="0.7"/>
+                    <circle cx="50" cy="50" r="38" stroke="#C8A96A" stroke-width="0.4" fill="none" opacity="0.5"/>
+                    <circle cx="50" cy="50" r="27" stroke="#C8A96A" stroke-width="0.6" fill="none" opacity="0.6"/>
+                    <circle cx="50" cy="50" r="10" fill="#C8A96A" opacity="0.18"/>
+                    <circle cx="50" cy="50" r="4" fill="#C8A96A" opacity="0.5"/>
+                    <ellipse cx="50" cy="8"  rx="4.5" ry="9" fill="#C8A96A" opacity="0.55"/>
+                    <ellipse cx="50" cy="92" rx="4.5" ry="9" fill="#C8A96A" opacity="0.55"/>
+                    <ellipse cx="8"  cy="50" rx="9" ry="4.5" fill="#C8A96A" opacity="0.55"/>
+                    <ellipse cx="92" cy="50" rx="9" ry="4.5" fill="#C8A96A" opacity="0.55"/>
+                    <ellipse cx="22" cy="22" rx="4.5" ry="9" fill="#C8A96A" opacity="0.4" transform="rotate(45 22 22)"/>
+                    <ellipse cx="78" cy="22" rx="4.5" ry="9" fill="#C8A96A" opacity="0.4" transform="rotate(-45 78 22)"/>
+                    <ellipse cx="22" cy="78" rx="4.5" ry="9" fill="#C8A96A" opacity="0.4" transform="rotate(-45 22 78)"/>
+                    <ellipse cx="78" cy="78" rx="4.5" ry="9" fill="#C8A96A" opacity="0.4" transform="rotate(45 78 78)"/>
+                    <circle cx="50" cy="20" r="2.2" fill="#C8A96A" opacity="0.65"/>
+                    <circle cx="50" cy="80" r="2.2" fill="#C8A96A" opacity="0.65"/>
+                    <circle cx="20" cy="50" r="2.2" fill="#C8A96A" opacity="0.65"/>
+                    <circle cx="80" cy="50" r="2.2" fill="#C8A96A" opacity="0.65"/>
+                    <circle cx="30" cy="30" r="1.8" fill="#C8A96A" opacity="0.5"/>
+                    <circle cx="70" cy="30" r="1.8" fill="#C8A96A" opacity="0.5"/>
+                    <circle cx="30" cy="70" r="1.8" fill="#C8A96A" opacity="0.5"/>
+                    <circle cx="70" cy="70" r="1.8" fill="#C8A96A" opacity="0.5"/>
+                </svg>
+
+                <p class="c-eyebrow">Konga Family Wedding Invitation</p>
+                <div class="c-divider"><span>✦</span></div>
+                <h1 class="c-title">Sasidhar &amp; Akhila</h1>
+                <div class="c-divider"><span>✦</span></div>
+                <p class="c-invite-line">Sri Sekhar Reddy &amp; Family</p>
+                <p class="c-invite-line" style="font-size:12px; margin-top:2px;">A heartfelt invitation to you and your family members.</p>
+                <p class="c-date">05 · July · 2026</p>
+                <p class="c-venue">Rama Thulasamma Convention Hall<br>By-pass Road, Basinikonda, Madanapalle</p>
+                <div class="c-hosts">
+                    <span>Smt. Bhulakshmi &amp; Sri K. Subba Reddy</span>
+                    <span class="c-contacts"><i class="fas fa-phone-alt"></i> 9490416351 &nbsp;|&nbsp; 7799448690</span>
+                </div>
+                <div class="c-thin-line"></div>
+                <div class="c-buttons">
+                    <a href="https://www.google.com/maps/search/Rama+Thulasamma+Convention+Hall+Madanapalle" target="_blank" class="btn-c btn-directions">
+                        <span class="label"><i class="fas fa-location-dot"></i>&nbsp; Get Directions</span>
+                    </a>
+                    <button class="btn-c" id="btn-open">
+                        <span class="label">View Invitation</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Language Selector -->
+    <div class="lang-selector">
+        <select id="lang-select">
+            <option value="en">English</option>
+            <option value="te">తెలుగు (Telugu)</option>
+            <option value="hi">हिन्दी (Hindi)</option>
+            <option value="kn">ಕನ್ನಡ (Kannada)</option>
+        </select>
+    </div>
+
+    <!-- Floating Audio Toggle -->
+    <button id="audio-btn" class="audio-toggle">
+        <i class="fas fa-music"></i>
+    </button>
+    <audio id="bg-music" loop>
+        <source src="music.mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="particles" id="particles"></div>
+        <div class="hero-content fade-in-up">
+            <p class="subtitle" data-i18n="together">With the blessings of Lord Sri Lakshmi Venkateswara Swamy</p>
+            <h1 class="couple-names gold-foil" data-i18n="names">Sasidhar &amp; Akhila</h1>
+            <div class="family-details">
+                <p data-i18n="groom_details">Kumarudu (Son) of Smt. K. Bhulakshmi &amp; Sri K. Subba Reddy</p>
+                <p data-i18n="bride_details">Kumarte (Daughter) of Smt. P. Veeramma &amp; Sri P. Prabhakar Reddy</p>
+            </div>
+            <p class="invite-text" data-i18n="invite_text">Invite you to celebrate their wedding</p>
+            <div class="date-location">
+                <p><strong data-i18n="wedding_date">05 • July • 2026</strong></p>
+                <p data-i18n="wedding_time_exact">Subha Karkataka Lagnam: 7:15 AM – 8:15 AM</p>
+                <p data-i18n="wedding_location">Rama Thulasamma Convention Hall, By-pass Road, Basinikonda, Madanapalle</p>
+            </div>
+            <a href="https://www.google.com/maps/search/Rama+Thulasamma+Convention+Hall+Madanapalle" target="_blank" class="hero-directions btn-directions">
+                <i class="fas fa-location-dot"></i>
+                <span data-i18n="get_directions">Get Directions</span>
+            </a>
+
+            <div class="countdown" id="countdown">
+                <div class="time-box"><span id="days">00</span>
+                    <p data-i18n="days">Days</p>
+                </div>
+                <div class="time-box"><span id="hours">00</span>
+                    <p data-i18n="hours">Hrs</p>
+                </div>
+                <div class="time-box"><span id="minutes">00</span>
+                    <p data-i18n="minutes">Min</p>
+                </div>
+                <div class="time-box"><span id="seconds">00</span>
+                    <p data-i18n="seconds">Sec</p>
+                </div>
+            </div>
+            <a href="#events" class="scroll-down"><i class="fas fa-chevron-down"></i></a>
+        </div>
+    </section>
+
+    <!-- Events Section -->
+    <section class="events hidden" id="events">
+        <h2 class="section-title" data-i18n="events_title">Wedding Events</h2>
+        <div class="tl-wrap">
+            <div class="tl-spine"></div>
+
+            <!-- Snathakam -->
+            <div class="tl-ev">
+                <div class="tl-ev-bg" style="background-image: url('reception_art.png');"></div>
+                <div class="tl-dot"></div>
+                <p class="tl-etag" data-i18n="snathakam">Snathakam</p>
+                <h3 class="tl-title" data-i18n="snathakam">Snathakam</h3>
+                <p class="tl-date" data-i18n="snathakam_date">July 04, 2026 | 5:00 PM</p>
+                <div class="tl-sep">✦</div>
+                <p class="tl-venue-name" data-i18n="venue_name">Rama Thulasamma Convention Hall, By-pass Road, Basinikonda, Madanapalle</p>
+                <div class="tl-actions">
+                    <a href="https://www.google.com/maps/search/Rama+Thulasamma+Convention+Hall+Madanapalle" target="_blank"
+                        class="btn-primary btn-directions" data-i18n="get_directions">Get Directions</a>
+                    <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Snathakam+-+Sasidhar+%26+Akhila&dates=20260704T113000Z/20260704T123000Z&location=Rama+Thulasamma+Convention+Hall,+Madanapalle"
+                        target="_blank" class="btn-secondary"><i class="far fa-calendar-plus"></i> <span
+                            data-i18n="add_calendar">Add to Calendar</span></a>
+                </div>
+            </div>
+
+            <!-- Reception -->
+            <div class="tl-ev">
+                <div class="tl-ev-bg" style="background-image: url('reception_art.png');"></div>
+                <div class="tl-dot"></div>
+                <p class="tl-etag" data-i18n="reception">Reception</p>
+                <h3 class="tl-title" data-i18n="reception">Reception</h3>
+                <p class="tl-date" data-i18n="reception_date">July 04, 2026 (Saturday) | 7:00 PM onwards</p>
+                <div class="tl-sep">✦</div>
+                <p class="tl-venue-name" data-i18n="venue_name">Rama Thulasamma Convention Hall, By-pass Road, Basinikonda, Madanapalle</p>
+                <div class="tl-actions">
+                    <a href="https://www.google.com/maps/search/Rama+Thulasamma+Convention+Hall+Madanapalle" target="_blank"
+                        class="btn-primary btn-directions" data-i18n="get_directions">Get Directions</a>
+                    <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Reception+-+Sasidhar+%26+Akhila&dates=20260704T133000Z/20260704T163000Z&location=Rama+Thulasamma+Convention+Hall,+Madanapalle"
+                        target="_blank" class="btn-secondary"><i class="far fa-calendar-plus"></i> <span
+                            data-i18n="add_calendar">Add to Calendar</span></a>
+                </div>
+            </div>
+
+            <!-- Wedding -->
+            <div class="tl-ev">
+                <div class="tl-ev-bg" style="background-image: url('wedding_art.png');"></div>
+                <div class="tl-dot"></div>
+                <p class="tl-etag" data-i18n="wedding">The Wedding</p>
+                <h3 class="tl-title" data-i18n="wedding">The Wedding</h3>
+                <p class="tl-date" data-i18n="wedding_time">July 05, 2026 (Sunday) | 7:15 AM</p>
+                <div class="tl-sep">✦</div>
+                <p class="tl-lagnam" data-i18n="lagnam">Subha Karkataka Lagnam: 7:15 AM – 8:15 AM</p>
+                <p class="tl-venue-name" data-i18n="venue_name">Rama Thulasamma Convention Hall, By-pass Road, Basinikonda, Madanapalle</p>
+                <div class="tl-actions">
+                    <a href="https://www.google.com/maps/search/Rama+Thulasamma+Convention+Hall+Madanapalle" target="_blank"
+                        class="btn-primary btn-directions" data-i18n="get_directions">Get Directions</a>
+                    <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Wedding+-+Sasidhar+%26+Akhila&dates=20260705T014500Z/20260705T024500Z&location=Rama+Thulasamma+Convention+Hall,+Madanapalle"
+                        target="_blank" class="btn-secondary"><i class="far fa-calendar-plus"></i> <span
+                            data-i18n="add_calendar">Add to Calendar</span></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Warm Wishes — Groom's Side -->
+    <section class="family-invites hidden" id="invites-groom">
+        <h2 class="section-title" data-i18n="warm_wishes">Warm Wishes</h2>
+        <p class="wishes-label">From the Groom's Family — Konga Family</p>
+        <div class="slider-container" id="slider-groom">
+            <div class="slide slide-groom fade">
+                <p class="invite-msg" data-i18n="invite_groom_parents">"With the blessings of Lord Sri Lakshmi Venkateswara Swamy, we cordially invite you along with your family and friends to attend the wedding ceremony of our youngest son and bless the couple."</p>
+                <p class="invite-author" data-i18n="author_groom_parents">- Smt. K. Bhulakshmi &amp; Sri K. Subba Reddy (Parents)</p>
+            </div>
+            <div class="slide slide-groom fade">
+                <p class="invite-msg" data-i18n="invite_nalasani">"We warmly invite you to grace the auspicious occasion and shower blessings on the couple."</p>
+                <p class="invite-author" data-i18n="author_nalasani">- Nalasani Family, Relatives &amp; Friends</p>
+            </div>
+            <a class="prev" onclick="changeSlide('groom', -1)">&#10094;</a>
+            <a class="next" onclick="changeSlide('groom', 1)">&#10095;</a>
+        </div>
+        <div class="dots" style="text-align:center">
+            <span class="dot dot-groom active" onclick="currentSlide('groom', 1)"></span>
+            <span class="dot dot-groom" onclick="currentSlide('groom', 2)"></span>
+        </div>
+    </section>
+
+    <!-- Warm Wishes — Bride's Side -->
+    <section class="family-invites family-invites-alt hidden" id="invites-bride">
+        <p class="wishes-label">From the Bride's Family</p>
+        <div class="slider-container" id="slider-bride">
+            <div class="slide slide-bride fade">
+                <p class="invite-msg" data-i18n="invite_parents">"We cordially invite you to grace the auspicious occasion of our daughter's wedding and bless the couple."</p>
+                <p class="invite-author" data-i18n="author_parents">- Smt. P. Veeramma &amp; Sri P. Prabhakar Reddy (Parents)<br><small style="font-weight:400; color:#6B6B6B;">Kambadahal Village, Pedda Kadaburu Mandal, Kurnool District</small></p>
+            </div>
+            <a class="prev" onclick="changeSlide('bride', -1)">&#10094;</a>
+            <a class="next" onclick="changeSlide('bride', 1)">&#10095;</a>
+        </div>
+        <div class="dots" style="text-align:center">
+            <span class="dot dot-bride active" onclick="currentSlide('bride', 1)"></span>
+        </div>
+    </section>
+
+    <footer>
+        <p data-i18n="footer">Made with ❤️ for Sasidhar Reddy &amp; Akhila — Konga Family</p>
+        <p class="footer-printer" data-i18n="printer">Printed by: Hari Printers, Madanapalle | 9949045005</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
